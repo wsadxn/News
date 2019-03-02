@@ -1,0 +1,17 @@
+ h1{color:#c3c1ce;font-style: italic;}
+ li{list-style-type: none;}
+ li a{font-size: 18px;}
+ .footer{
+     background-color:#737373;
+     text-align: center;
+     color:white;
+}
+.margintop{margin-top:80px;}
+.navbar-fixed-top{
+    margin: 0;
+    padding: 10px 0 10px 50px;
+    background-color: rgb(115,115,115);
+    color: white;
+}
+.navbar-fixed-top small{color:white;}
+

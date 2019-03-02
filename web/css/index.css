@@ -1,0 +1,104 @@
+*{margin: 0;padding: 0;}
+* li,ul li{ list-style-type: none;}
+.news li{
+    list-style-type: disc;
+    width: 100%;
+    height: 100%;
+    padding-top:4px;
+    font-size: 16px;
+}
+a{text-decoration: none;}
+* a:hover,a:hover{color:rgb(179,16,17);}
+.col-sm-3,.col-sm-6{margin-top: 10px;}
+.col-sm-3 h4{
+    color: rgb(178,16,17);
+    margin:0 -15px;
+    padding: 8px;
+    background: rgb(235,235,235);
+}
+.col-sm-6 h4{
+    padding: 8px;
+    border-left: 2px solid rgb(179,16,17);
+    box-shadow:  0 -2px 4px gray;
+}
+.container{margin-bottom: 0;}
+#nav,#navCity{width: 100%;float: left;}
+#nav li,#navCity li{float: left; padding:3px;}
+
+#nav{padding: 3px;background: rgb(215,215,215);}
+#nav li{font-size: 14px;margin: 5px;}
+#nav .sub{
+    font-size: 12px;
+    padding: 2px;
+    border: 1px solid black;
+    background-color: rgb(240,246,250);
+}
+
+#navCity li{font-size: 12px;}
+#navCity li a{width: 100%;height: 100%;color: grey;}
+
+#logo{clear: both;width:100%;height: 50px;position: relative;}
+#mainhead{
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width:50%;
+    height:50px;
+    margin: 0;
+}
+#logo label,#logo button{
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    margin: 0;
+}
+#logo button{right:0;border: 1px solid black;}
+
+.navThree{margin-top: 10px;}
+.navThree li{text-align: center;margin-bottom: 3px;}
+.navThree li a{font-size: 16px;color: black;text-decoration: none;}
+.navThree li:hover{
+    margin-bottom:0px;
+    color:rgb(179,16,17);
+    border-bottom: 3px solid rgb(179,16,17);
+}
+.navThree{ border-bottom: 2px solid rgb(178,16,17);}
+
+#myCarousel{padding: 0;}
+#myCarousel a{text-decoration: none;}
+.carousel-inner .item img{width: 100%;height: 100%;}
+.carousel-caption{right: 5%;left: 5%;font-weight: bold;font-size: 16px; padding-bottom: 3px;}
+.carousel-indicators{bottom:0;}
+.left,.right{
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding: 3px;
+    background-color: rgba(35,35,35,.5);
+}
+.right{right: 0;}
+#videoNews{padding: 0;}
+#videoNews h4{margin: 0;}
+.middleNews{padding: 8px;}
+.middleNews a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+.slide{position: fixed;bottom: 10%;left:0;}
+.slide a{
+    display: block;
+    width:100%;
+    height: 100%;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(35,35,35);
+}
+.footer{
+    background-color: rgb(51,51,51);
+    text-align: center;
+    color:white;
+}

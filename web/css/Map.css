@@ -1,0 +1,42 @@
+h1{
+    bottom: -30px;
+    background-color:rgb(226,71,70);
+    color:white;
+    padding: 15px;
+    text-align: center;
+    margin: 0;
+    font-style: italic;
+}
+ul li{list-style-type: none;font-size: 16px;}
+a{color:black;}
+a:hover{text-decoration: none;}
+.container{
+    margin-bottom: 150px;
+}
+#mytab{margin-bottom: 30px;}
+#map li{
+    text-align: center;
+    padding: 3px 15px;
+}
+#map li:hover{background-color: rgb(226,71,70);}
+#map li:hover a{color: white;}
+.navbar-fixed-bottom{
+    background-color: rgb(51,51,51);
+    text-align: center;
+    color: white;
+}
+.navbar-fixed-bottom *{margin-bottom: 0;}
+#about p{text-indent: 2em;}
+
+#contact div{
+   border: 1px solid rgb(51,51,51);
+   padding: 0;
+   transition: All 0.4s ease-in-out;
+}
+#contact div:hover{transform: scale(1.2);}
+#contact div:hover h3{background-color: rgb(226,71,70);}
+#contact h3{
+   width: 100%;
+   background-color: rgb(51,51,51);
+   color:white;
+}

@@ -1,0 +1,3 @@
+# NewsRelease
+使用jsp、servlet制作的一个简易新闻查看及发布系统
+页面布局使用bootstrap
